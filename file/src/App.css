@@ -1,0 +1,107 @@
+body {
+    background-color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.App {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Welcome.css */
+
+/* Main container */
+.welcome-main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image container */
+.image-container {
+    padding-bottom: 1rem;
+}
+
+.image-container img {
+    width: 100%;
+    /* Adjust as needed */
+}
+
+/* Content container */
+.content-container {
+    position: absolute;
+    bottom: 0;
+    width: 23rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 3rem 3rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo container */
+.logo-container {
+    display: flex;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.logo-container img {
+    margin-right: 0.5rem;
+    /* Adjust spacing between logo and name */
+}
+
+/* Tagline */
+.tagline {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #333;
+    /* Adjust text color */
+}
+
+/* Button */
+.google-button {
+    background-color: #333;
+    /* Dark gray background */
+    color: white;
+    font-size: 0.875rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.google-button:hover {
+    background-color: #444;
+    /* Slightly darker gray */
+}
+
+.google-button:focus {
+    outline: 2px solid #666;
+    /* Focus ring */
+    outline-offset: 2px;
+}
+
+
+/* feed */
+
+.welcome-text {
+    color: rgba(0, 0, 0, 0.33);
+}
